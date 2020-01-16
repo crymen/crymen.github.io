@@ -5,16 +5,16 @@
   
 
   
-  <title>我的第一篇blog | Cirk Lu</title>
+  <title>安装live2D | Cirk Lu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#这是第一篇blog  第一行  第二行，其中斜体，粗体     这里开始是一段代码块">
+  <meta name="description" content="安装npm包 1npm install --save hexo-helper-live2d">
 <meta property="og:type" content="article">
-<meta property="og:title" content="我的第一篇blog">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;04&#x2F;%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog&#x2F;index.html">
+<meta property="og:title" content="安装live2D">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;01&#x2F;16&#x2F;%E5%AE%89%E8%A3%85live2D&#x2F;index.html">
 <meta property="og:site_name" content="Cirk Lu">
-<meta property="og:description" content="#这是第一篇blog  第一行  第二行，其中斜体，粗体     这里开始是一段代码块">
+<meta property="og:description" content="安装npm包 1npm install --save hexo-helper-live2d">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-04T12:05:02.511Z">
+<meta property="og:updated_time" content="2020-01-16T03:06:25.163Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Cirk Lu" type="application/atom+xml">
@@ -66,10 +66,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-我的第一篇blog" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-安装live2D" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/11/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog/" class="article-date">
-  <time datetime="2019-11-04T09:06:10.000Z" itemprop="datePublished">2019-11-04</time>
+    <a href="/2020/01/16/%E5%AE%89%E8%A3%85live2D/" class="article-date">
+  <time datetime="2020-01-16T02:57:28.000Z" itemprop="datePublished">2020-01-16</time>
 </a>
     
   </div>
@@ -80,7 +80,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      我的第一篇blog
+      安装live2D
     </h1>
   
 
@@ -88,15 +88,24 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#这是第一篇blog<br>  第一行<br>  第二行，其中<em>斜体</em>，<strong>粗体</strong>  </p>
-<p>  这里开始是一段代码块  </p>
+        <p>安装npm包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> : Cirk Lu</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Date</span> : Created in 2019/9/6 10:25</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Description</span> : 抽象出测试接口，同时该接口也为lambda表达式所使用的函数式接口</span></span><br><span class="line"><span class="comment"> **/</span></span><br><span class="line"><span class="meta">@FunctionalInterface</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">ApplePredicate</span> </span>&#123;</span><br><span class="line">	<span class="comment">/**</span></span><br><span class="line"><span class="comment">	 * 布尔类型返回方法</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> apple</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">	 */</span></span><br><span class="line">	<span class="function"><span class="keyword">boolean</span> <span class="title">test</span><span class="params">(Apple apple)</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后在hexo配置文件中添加live2D相关配置项</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  scriptFrom: local</span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: false</span><br><span class="line">  debug: false</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-shizuku</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: true</span><br></pre></td></tr></table></figure>
+<p>然后下载模型（例）：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install live2d-widget-model-shizuku</span><br></pre></td></tr></table></figure>
+<p>模型Git路径</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/xiazeyu/live2d-widget-models</span><br></pre></td></tr></table></figure>
+<p>模型预览地址</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://huaji8.top/post/live2d-plugin-2.0/</span><br></pre></td></tr></table></figure>
+
+<p>下载完成后，在hexo根目录创建live2d_models，将前面下载好的模型复制到新文件夹，修改配置文件的use项为下载模型名<br>hexo server 启动服务</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog/" data-id="ck5g5iflz0000h8uuf70d5lyp" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/01/16/%E5%AE%89%E8%A3%85live2D/" data-id="ck5g5ifmc0001h8uuhxbi7d1z" class="article-share-link">Share</a>
       
       
     </footer>
@@ -105,15 +114,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/01/16/%E5%AE%89%E8%A3%85live2D/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          安装live2D
-        
-      </div>
-    </a>
   
+    <a href="/2019/11/04/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">我的第一篇blog</div>
+    </a>
   
 </nav>
 
