@@ -1,6 +1,10 @@
 ---
 title: 新的开始 - hexo 升级恢复
 date: 2026-08-12 10:59
+tags:
+  - Hexo
+categories:
+  - 技术
 ---
 
 # 使用 Docker 重建 Hexo 环境并通过 GitHub Pages 发布
