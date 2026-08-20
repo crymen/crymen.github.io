@@ -107,7 +107,7 @@ series_generator:
 theme_config:
   menu:
     Home: /
-    归档: /archives
+    Archives: /archives
     专题: /series/
 
 # Deployment
