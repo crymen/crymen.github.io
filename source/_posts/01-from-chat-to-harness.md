@@ -1,6 +1,6 @@
 ---
 title: 从 Chat 到 Harness：当 LLM 开始拥有"手和脚"
-date: "2026-08-20 10:30"
+date: 2026-08-20 10:30
 tags:
   - AI
   - LLM

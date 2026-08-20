@@ -1,6 +1,6 @@
 ---
 title: Context 与 Instruction：LLM 到底"知道"什么
-date: "2026-08-20 11:31"
+date: 2026-08-20 11:31
 tags:
   - AI
   - LLM
@@ -166,7 +166,7 @@ Project Instructions
 例如：
 
 ``` text
-“订单表逻辑删除字段是 deleted”
+"订单表逻辑删除字段是 deleted"
 ```
 
 这是项目中的 Knowledge。只有当它被读取、检索或通过其他方式提供给模型时，才会成为当前 Context 的一部分。
@@ -174,7 +174,7 @@ Project Instructions
 而：
 
 ``` text
-“禁止直接物理删除订单数据”
+"禁止直接物理删除订单数据"
 ```
 
 则是一条 Instruction。它同样需要被加载到当前 Context 中，才能约束模型的行为。
