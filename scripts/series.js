@@ -116,7 +116,7 @@ hexo.extend.generator.register('series', function seriesGenerator(locals) {
         date: series.posts[series.posts.length - 1].date,
         comments: false,
         series: series.name,
-        content: `<p>共 ${series.posts.length} 篇，按推荐阅读顺序排列。</p>\n<ol class="series-post-list">\n${postItems}\n</ol>`
+        content: `<p>共 ${series.posts.length} 篇，按推荐阅读顺序排列。</p>\n<ol class="series-post-list" style="list-style: none; padding-left: 0;">\n${postItems}\n</ol>`
       }
     });
   });
