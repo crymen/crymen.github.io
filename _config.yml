@@ -98,6 +98,18 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+# Series pages
+series_generator:
+  path: series
+  slugs:
+    AI Agent Harness 入门: ai-agent-harness
+
+theme_config:
+  menu:
+    Home: /
+    Archives: /archives
+    专题: /series/
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
