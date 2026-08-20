@@ -7,6 +7,8 @@ tags:
   - Harness
 categories:
   - 技术
+series: AI Agent Harness 入门
+series_order: 2
 ---
 
 上一篇把 Harness 暂时理解成了"LLM + Tools"。有了文件读取和终端能力以后，LLM 可以真正进入项目工作。

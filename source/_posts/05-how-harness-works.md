@@ -7,6 +7,8 @@ tags:
   - Harness
 categories:
   - 技术
+series: AI Agent Harness 入门
+series_order: 5
 ---
 
 经过 Tool、Context、Instruction、Skill 和 MCP 以后，可以重新回答最开始的问题：

@@ -7,6 +7,8 @@ tags:
   - Harness
 categories:
   - 技术
+series: AI Agent Harness 入门
+series_order: 1
 ---
 
 最近开始接触 AI Agent Harness。这里的 Harness 指围绕 LLM 提供工具、上下文、权限控制和执行循环的运行框架。最初的印象很简单：它大概就是一个比普通 Chat 更强的聊天工具，能读取项目文件，也能执行终端命令。

@@ -7,6 +7,8 @@ tags:
   - Harness
 categories:
   - 技术
+series: AI Agent Harness 入门
+series_order: 4
 ---
 
 理解 Skill 以后，我们很快遇到了另一个概念：MCP。

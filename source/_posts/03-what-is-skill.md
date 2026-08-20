@@ -7,6 +7,8 @@ tags:
   - Harness
 categories:
   - 技术
+series: AI Agent Harness 入门
+series_order: 3
 ---
 
 在真实项目中使用 Coding Agent 时，很快会遇到一个明显的问题：
